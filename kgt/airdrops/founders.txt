@@ -1,0 +1,7 @@
+sipher   : 91,200,000 KGT
+kelvin   : 89,200,000 KGT
+lucas    : 69,600,000 KGT
+rheidner : 66,000,000 KGT
+derenash : 66,000,000 KGT
+taelin   : 20,000,000 KGT <- asked less token since he already purchased 400m due to his 2m BRL investment; plans to never have more than 1% of the total supply
+pitchu   : 16,800,000 KGT
