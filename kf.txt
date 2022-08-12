@@ -82,7 +82,6 @@ Opção PJ:
 -- Top #100:   +5,000 BRL
 -- Top  #50:  +13,000 BRL
 -- Top  #10: +126,000 BRL
-
 ...
 
 Equipe Inicial
@@ -99,6 +98,7 @@ Sipher   |  5,000 BRL + 1,000,000 KGT | ?
 Derenash |  5,000 BRL + 1,000,000 KGT | Kind, Developer. Foco em DApps. 6h/dia.
 Nicolas  |  4,200 BRL +   833,333 KGT | Kind, Developer. Foco primário no Kind2, em Rust. Foco secundário em DApps, no Kind2. Opcional: runtime paralelo. 5h/dia.
 Samuel   |  3,333 BRL +   666,666 KGT | Kind, Developer. Foco primário no Kind2, em Rust. Opcional: HVM. 4h/dia.
+Gabriel  |  2,500 BRL + 1,500,000 KGT | Web Developer. Foco em tooling.
 Rodrigo  | 10,000 BRL                 | Web Developer. Foco no kindelia.org (React/Next/Canvas/WebGL). Opcional: APIs Kindelia (HTTP/RPC), HVM -> WASM compiler. 6h/dia.
 Mafa     |  2,500 BRL +   500,000 KGT | Arte. Foco em concepts, game assets, sprites.
 Hayã     |  2,500 BRL +   500,000 KGT | Arte. Foco em concepts, game assets, sprites.
