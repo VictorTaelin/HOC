@@ -89,38 +89,55 @@ Equipe Inicial
 
 Nome     | Pagamento                  | Notas
 -------- | -------------------------- | --------------------------------------------------------------------------------
+Sipher   |  5,000 BRL + 1,000,000 KGT | Sipher. Flex.
+Kingu    |  3,000 BRL + 1,400,000 KGT | Community Manager. Foco em divulgação e controle de qualidade. 6h/dia.
 Kelvin   |  5,000 BRL + 1,000,000 KGT | Kindelia, Lead Developer.
 Rheidner |  5,000 BRL + 1,000,000 KGT | Kindelia & HVM, Developer. Foco em testes e aprimoramentos. Opcional: web, front-end.
-Santi    |  5,000 BRL + 1,000,000 KGT | HVM, Developer. Foco no runtime paralelo. Contrato de 6 meses. 6h dia.
-Chiyoku  |  5,000 BRL + 1,000,000 KGT | Kind, Developer. Foco primário no Kind2, em Rust. Foco secundário em provas, no Kind2.
-Taelin   |  5,000 BRL + 1,000,000 KGT | Kind, HVM, Kindelia, Lead Developer. Foco em administrar as equipes.
-Sipher   |  5,000 BRL + 1,000,000 KGT | ?
-Derenash |  5,000 BRL + 1,000,000 KGT | Kind, Developer. Foco em DApps. 6h/dia.
-Nicolas  |  4,200 BRL +   833,333 KGT | Kind, Developer. Foco primário no Kind2, em Rust. Foco secundário em DApps, no Kind2. Opcional: runtime paralelo. 5h/dia.
-Samuel   |  3,333 BRL +   666,666 KGT | Kind, Developer. Foco primário no Kind2, em Rust. Opcional: HVM. 4h/dia.
-Gabriel  |  2,500 BRL + 1,500,000 KGT | Web Developer. Foco em tooling.
 Rodrigo  | 10,000 BRL                 | Web Developer. Foco no kindelia.org (React/Next/Canvas/WebGL). Opcional: APIs Kindelia (HTTP/RPC), HVM -> WASM compiler. 6h/dia.
+Gabriel  |  2,500 BRL + 1,500,000 KGT | Web Developer. Foco em tooling.
+Santi    |  5,000 BRL + 1,000,000 KGT | HVM, Developer. Foco no runtime paralelo. Contrato de 6 meses. 6h dia.
+Taelin   |  5,000 BRL + 1,000,000 KGT | Kind, HVM, Kindelia, Lead Developer. Foco em administrar as equipes.
+Chiyoku  |  5,000 BRL + 1,000,000 KGT | Kind, Developer. Foco primário no Kind2, em Rust. Foco secundário em provas, no Kind2.
+Samuel   |  3,333 BRL +   666,666 KGT | Kind, Developer. Foco primário no Kind2, em Rust. Opcional: HVM. 4h/dia.
+Nicolas  |  4,200 BRL +   833,333 KGT | Kind, Developer. Foco primário no Kind2, em Rust. Foco secundário em DApps, no Kind2. Opcional: runtime paralelo. 5h/dia.
+Derenash |  5,000 BRL + 1,000,000 KGT | Kind, Developer. Foco em DApps. 6h/dia.
 Mafa     |  2,500 BRL +   500,000 KGT | Arte. Foco em concepts, game assets, sprites.
 Hayã     |  2,500 BRL +   500,000 KGT | Arte. Foco em concepts, game assets, sprites.
-Kingu    |  3,000 BRL + 1,400,000 KGT | Community Manager. Foco em divulgação e controle de qualidade. 6h/dia.
+
+Agenda
+======
+
+Segunda:
+- Lucas (telas)
+- Team HVM (Santi, e interessados)
+- Team Game (Lucas, Mafa, Dere, Nicolas, eu) <- 
+- Team Kind (Samuel, Chiyoku, Nicolas, eu)
+
+- ver questão do contrato
+
+Oi, tudo bem? Amanhã, qual o melhor horário para começarmos? 13h, 16h ou 19h?
+
+
+
 
 Convites Futuros
 ================
 
 Convidados:
-- Gabriel Del
+- Adriano A.
+- Bonatto
 - Corgan
 - Danfs
+- Etrius
+- Gabriel Del
+- Henrique (gzsr) *gostaria de fazer freelas
 - Humberto
 - IgorV
 - Lucas Lucena
+- Medina
 - Miguel
 - Sett
 - Sávio
-- Henrique (gzsr) *gostaria de fazer freelas
-
-Entrevistar:
-- Adriano A.
 
 Projetos
 ========

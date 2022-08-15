@@ -1,0 +1,45 @@
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+:: Equipes                                                                    ::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+Kindelia
+========
+- Kelvin
+- Rheidner
+
+HVM
+===
+- Santi
+
+Kind
+====
+- Chiyoku
+- Samuel
+- Nicolas
+
+Ecosystem
+=========
+- Sipher
+- Derenash
+- Mafa
+- Hayã
+
+Kindelia.org
+============
+- Rodrigo
+- Gabriel
+
+Community
+=========
+- Kingu
+-- Fazendo o bot que streama o #working na Twitch
+-- Estudando apps para trabalho
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+:: Reuniões                                                                   ::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+2022-08-15
+- 13h ~ 16h: Kind. Overview da codebase. Planejar próxima feature. Assignar tarefas.
+- 16h ~ 19h: HVM. Overview da codebase. Passar a tarefa de debugging para o Santi.
+- 19h ~ 22h: Ecosystem. Brainstorm do primeiro mini-game que implementaremos no Kindelia.
