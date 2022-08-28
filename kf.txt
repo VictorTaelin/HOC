@@ -102,23 +102,7 @@ Samuel   |  3,333 BRL +   666,666 KGT | Kind, Developer. Foco primário no Kind2
 Nicolas  |  4,200 BRL +   833,333 KGT | Kind, Developer. Foco primário no Kind2, em Rust. Foco secundário em DApps, no Kind2. Opcional: runtime paralelo. 5h/dia.
 Derenash |  5,000 BRL + 1,000,000 KGT | Kind, Developer. Foco em DApps. 6h/dia.
 Mafa     |  2,500 BRL +   500,000 KGT | Arte. Foco em concepts, game assets, sprites.
-Hayã     |  2,500 BRL +   500,000 KGT | Arte. Foco em concepts, game assets, sprites.
-
-Agenda
-======
-
-Segunda:
-- Lucas (telas)
-- Team HVM (Santi, e interessados)
-- Team Game (Lucas, Mafa, Dere, Nicolas, eu) <- 
-- Team Kind (Samuel, Chiyoku, Nicolas, eu)
-
-- ver questão do contrato
-
-Oi, tudo bem? Amanhã, qual o melhor horário para começarmos? 13h, 16h ou 19h?
-
-
-
+PixelArt |  ?                         | Pixel artist 2D.
 
 Convites Futuros
 ================

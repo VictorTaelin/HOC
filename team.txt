@@ -2,38 +2,26 @@
 :: Equipes                                                                    ::
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
-Kindelia
-========
-- Kelvin
-- Rheidner
+Kelvin
+======
+- Kelvin: Kindelia
+- Rheidner: Kindelia
+- Rodrigo: ?
+- Gabriel: ?
 
-HVM
-===
-- Santi
+Taelin
+======
+- Santi: rooms.kindelia.org
+- Chiyoku: definir next
+- Samuel: definir next
+- Nicolas: parser do kind2
+- Sipher: fibulacci
+- Derenash: fibulacci
+- Mafa: fibulacci
 
-Kind
-====
-- Chiyoku
-- Samuel
-- Nicolas
-
-Ecosystem
-=========
-- Sipher
-- Derenash
-- Mafa
-- Hayã
-
-Kindelia.org
-============
-- Rodrigo
-- Gabriel
-
-Community
-=========
-- Kingu
--- Fazendo o bot que streama o #working na Twitch
--- Estudando apps para trabalho
+Kingu
+=====
+- Kingu: ?
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 :: Reuniões                                                                   ::
@@ -41,5 +29,48 @@ Community
 
 2022-08-15
 - 13h ~ 16h: Kind. Overview da codebase. Planejar próxima feature. Assignar tarefas.
+  - 13:30 ~ 14:00 ~ discutimos o que poderia melhorar
+  - 14:00 ~ 14:30 ~ samuel apresenta a proposta dele
+  - 14:30 ~ 15:00 ~ votação do que começar a fazer
+  - 15:00 ~ 16:00 ~ overview da tecnologia e distribuição das tarefas
 - 16h ~ 19h: HVM. Overview da codebase. Passar a tarefa de debugging para o Santi.
 - 19h ~ 22h: Ecosystem. Brainstorm do primeiro mini-game que implementaremos no Kindelia.
+
+2022-08-16
+- 13h: Kind2 
+  - Votação do que atacar.
+  - Overview tecnico da implementação.
+  - Distribuição de tarefas.
+- 16h: Game
+
+2022-08-22
+- 14h: weekly atrasado
+  - santi: trabalhou no hvm-visual-debugger
+  - chiyoku: refatorou o checker.hvm em kind2
+  - samuel: fez o parser do kind2
+  - sipher: jogo, ideias e codigo (map)
+  - derenash: jogo, ideias e codigo (map)
+  - mafa: jogo, ideias e arte (map)
+  - kingu: ?
+
+2022¬08-28
+- 14h: weekly
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+:: TODO                                                                       ::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+Adicionar ao NEWS.md:
+- conserto do paralelismo da hvm
+- bootstrap do kind2 (by chiyoku)
+- parser combinators em kind2 (by nicolas/samuel)
+- U120 by nicolas
+- provas by franchu
+
+pending:
+- resposta sobre o hvm-react-component build no kind2 (#kelvin-team)
+- marcar reuniao com gabriel, kelvin, rodrigo
+- me atualizar com kingu
+- api do kindelia (kelvin)
+- kindelia.org (rodrigo)
+- definições NFC? grupo primo?
