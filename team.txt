@@ -19,6 +19,12 @@ Taelin
 - Derenash: fibulacci
 - Mafa: fibulacci
 
+Just works
+
+
+
+
+
 Kingu
 =====
 - Kingu: ?
@@ -47,6 +53,7 @@ Kingu
 - 14h: weekly atrasado
   - santi: trabalhou no hvm-visual-debugger
   - chiyoku: refatorou o checker.hvm em kind2
+  - gabriel: especialista em apps do kind2
   - samuel: fez o parser do kind2
   - sipher: jogo, ideias e codigo (map)
   - derenash: jogo, ideias e codigo (map)
@@ -68,9 +75,25 @@ Adicionar ao NEWS.md:
 - provas by franchu
 
 pending:
-- resposta sobre o hvm-react-component build no kind2 (#kelvin-team)
-- marcar reuniao com gabriel, kelvin, rodrigo
+- resposta sobre o hvm-react-component build no kind2 (#kelvin-team) <-
+- kelvin, rodrigo
 - me atualizar com kingu
 - api do kindelia (kelvin)
-- kindelia.org (rodrigo)
+- kindelia.org (rodrigo / lucas)
 - definições NFC? grupo primo?
+- chiyoku: conversar sobre prox. passos
+- samuel: conversar sobre projeto longo prazo
+- nicolas: pediu para conversar 
+
+- falar do sipher (as provas q ele fez)
+- ver as telas com lucas
+- falar do kingu
+- 
+
+- passagens
+
+sunk cost fallacy
+
+
+
+- falar pro tio continuar gravando, comprar um SSD

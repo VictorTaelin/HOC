@@ -1,0 +1,177 @@
+Kind2: problems
+- Redundante: escrever o tipo específico em várias funções
+  - match List { ... } 
+  - do List { ... }
+  - Vector.to_list [1, 2, 3]
+  - U60.to_nat 123
+  - List.show (Pair.show U60.show Bool.show) [(...), ...]
+  - Nat.add 42 667
+  - U60.add 88 111
+- Packages, imports, namespaces, modules...
+  - First class modules (de ocaml)
+  - Private functions / fields (como warning?)
+  - Nomes completos podem ficar muito longos
+    - Uma forma de encurtar nomes
+    - App.BattleGalactica.Vector2D.float.cross.aux.commutes
+  - Precisamos de uma forma de codar FORA da pasta Wikind
+    - kind2 check Bla.kind2 --libs ~/Wikind
+    - import "~/Wikind" ?
+    - import "https://github.com/...."
+  - Precisamos de uma forma de publicar e baixar libs
+    - Análogo ao cargo, npm, etc.
+- Implicit arguments na esquerda
+  (List.head (List.cons t  x xs)) = ...
+  (List.head (List.cons    x xs)) = ...
+                        /\ implicito
+- Não precisar dar nome para LHS vars
+  (List.head (List.cons _ _)) = ...
+                        /\ não precisar dar nome
+- O compilador do Kind2<->Kindelia tá um lixinho
+  - Ajustar nomes 
+    - Encurtar
+    - Ver se já existem
+    - Short Nicknames Kindelia
+  - Flattener (não é feito!)
+    (Foo (Pair.new Bool.true Bool.false)) = ... // .kdl invalido
+  - Outras...
+- Sugars do Kind1
+  - Lista [1 2 3]
+  - Mapa {x:1 y:2 z:3}
+  - Getters, Setters e Mutters (foo[x] <- y) (foo{x} <- y) (foo[2]@x <- 7)
+  - First class lens? -> maneiras mais curtas de inspecionar e modificar estruturas
+  - Loops (for, while)
+  - Open
+- Não dá pra fazer um pattern match no "let"
+  - let (Pair.new a b) = pair
+- Currying é verboso
+  - (x => y => Nat.add x y)
+    -----------------------
+    Nat.add ?
+- Os argumentos implicitos precisam ser discutidos
+  - Equal.apply f e
+  - Equal.apply _ _ _ f e
+  - Pair.map f pair
+  - Pair.map _ _ f pair
+  - @Equal.apply x y f x
+- A keyword `type` atual é horrível: discutir
+  - type Bool { true false } <- fica em um arquivo separado...
+  - não suporta tipos indutivos
+  - não suporto quocientes
+  - precisamos de mais derivers
+    derive show, map, serialize, parse, read, etc. etc.
+- Pattern matches mais expressivos
+  guard patterns?
+  opção de dar nomes:
+  open
+  match x { (cons h t) => ...; nil => ... }
+  match x { true true => A, true _ => B }
+  let (Pair.new a b) = ...
+  Nat.func (x: Nat) : Nat
+  Nat.func (0 | 1 | 2) = 0
+  Nat.func x           = x
+  kek ("sypher" | "taelin") = cool 
+- Check de consistencia
+  - Check de totalidade
+    F (b: Bool) : Bool
+    F Bool.true = Bool.false
+    // deveria reclamar
+  - Check de terminação
+    F (n: Nat) (m: Nat) : Equal Nat n m
+    F n m = F n m
+    // deveria reclamar
+  - Check de elementaridade / linearidade / affine
+    F : CNat
+    F = ((x => (x x)) (f => x => (f (f x))))
+- Funext? Homotopy Type Theory? Cubical?
+  - erasure? irrelevant proofs? Higher Observational Type Theory?
+- Tipos indutivos mais expressivos?
+  - dependent intersections
+  - self types?
+  - smart constructors?
+  - quotients?
+  - hott stuff
+- Language server (eca)
+  - hot reload, watch, etc.
+- Aperfeiçoamentos do parser
+  - Passar o parser pro próprio kind2?
+  - Parser LR1 por definição / tipos?
+- Erros mais expressivos
+  - hints
+    /\ "que tal tentar X?"
+    /\ "isso aconteceu porque você ... e aí ..."
+    /\ "eu esperava um X, mas aconteceu Y, por conta de Z ..."
+  - melhorar os erros que estão ruins (comparados ao TypeMismatch)
+    - ExpectedFunction
+    - ArityError
+    - etc.
+  - poder omitir alguns inspects
+    - "?-" não mostra esse inspect
+    - "?+" mostra *só* esse inspect
+    - poder dar nomes aos inspect
+- A biblioteca padrão não segue padrões
+  - O padrão é não ter padrão
+  - Padronizar os nomes: fazer uma votação
+  - Padronizar os parentesis: fazer uma votação
+  - Comprimento das linhas, etc. etc.
+  - Fazer o KeK
+- Melhorias de rewrite
+  - rewrite de goal?
+- Discutir sobre monads vs algebraic effects
+- Tudo que falta no IO, FFI, Effects...
+  - platforms? <- marcar reuniao, assistir o video do Kelvin
+  - cai mais pro HVM que pro Kind2
+  - por enquanto só temos print e read
+- Async monad?
+- App renderer?
+- Trazer conceitos de repls avançados
+  - Mathematica, Jupiter Notebook, etc. etc.
+  - Renderizar diversos tipos, não só "IO":
+    IO, Image, App, Chart, Game, Sound ...
+- Melhorar o debugger
+  - Trazer o "hvm debug"
+  - Trazer o HVM.log <- low hanging fruit
+- Macros: será que é necessário?
+  - alterar a sintaxe é risky
+  - primitivos de reduce / normalize?
+- Sintaxes monadicas para pessoas normais da vida afora
+  do Python {
+    a = 8
+    b = 9
+    for x in [1, 2, 3]:
+      print x
+    if x == 0:
+      print "oi"
+    else:
+      print "bye"
+    return 0
+  }
+- HVM: imports, compilação incremental
+- DocStrict, semantic highlighting
+- Equality de tipos recursivos
+  - Scott-Encoding ?
+  - Nat : Type { (p: Type) -> (s: Nat -> p) -> (z: p) -> p }
+  - Self-Types !
+- Renomear o Kind2 para Kind
+  - Renomear o Kind1 para Kind-legacy
+  - Trazer os self-types para uma nova linguagem de pesquisa (ColD)
+- Tooling: query-based?
+- Optimizing compiler?
+  - inlining?
+  - rewrite pragmas?
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
