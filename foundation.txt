@@ -69,11 +69,27 @@ Supply: 42,000,000,000
 
 Preço Interno: R$ 0.005 / KGT
 
-- Projeções:
--- Top #200 = R$    520,000,000 mcap = R$ 0.01 / KGT
--- Top #100 = R$  2,200,000,000 mcap = R$ 0.05 / KGT
--- Top  #50 = R$  5,782,000,000 mcap = R$ 0.13 / KGT
--- Top  #10 = R$ 53,154,000,000 mcap = R$ 1.26 / KGT
+Projeções:
+6 meses:
+-- Top #200 = R$    520,000,000 mcap = R$ 0.113 (22,6x) / KGT (USD 0.022)
+-- Top #100 = R$  2,200,000,000 mcap = R$ 0.478 (95,6x) / KGT (USD 0.094)
+-- Top  #50 = R$  5,782,000,000 mcap = R$ 1.258 (251,6x) / KGT (USD 0.222)
+-- Top  #10 = R$ 53,154,000,000 mcap = R$ 11.57 (2314x) / KGT (USD 2.282)
+1 ano:
+-- Top #200 = R$    520,000,000 mcap = R$ 0.073 (14,6x) / KGT (USD 0.014)
+-- Top #100 = R$  2,200,000,000 mcap = R$ 0.31 (62x) / KGT  (USD 0.061)
+-- Top  #50 = R$  5,782,000,000 mcap = R$ 0.815 (163x) / KGT (USD 0.16)
+-- Top  #10 = R$ 53,154,000,000 mcap = R$ 7.499 (1499x) / KGT (USD 1.479)
+2 anos:
+-- Top #200 = R$    520,000,000 mcap = R$ 0.043 (8,6x) / KGT (USD 0.008)
+-- Top #100 = R$  2,200,000,000 mcap = R$ 0.182 (36,4x) / KGT (USD 0.035)
+-- Top  #50 = R$  5,782,000,000 mcap = R$ 0.478 (95,6x) / KGT (USD 0.094)
+-- Top  #10 = R$ 53,154,000,000 mcap = R$ 4.4019 (880,38x)/ KGT (USD 0.86)
+4 anos:
+-- Top #200 = R$    520,000,000 mcap = R$ 0.023 (4,6x) / KGT (USD 0.045)
+-- Top #100 = R$  2,200,000,000 mcap = R$ 0.099 (19,8x) / KGT (USD 0.019)
+-- Top  #50 = R$  5,782,000,000 mcap = R$ 0.262 (52,4x) / KGT (USD 0.051)
+-- Top  #10 = R$ 53,154,000,000 mcap = R$ 2.41 (482x) / KGT  (USD 0.475)
 
 Opção PJ:
 - Trocar -500 BRL por +100,000 KGT
