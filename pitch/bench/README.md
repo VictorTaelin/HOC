@@ -72,6 +72,9 @@ cd main
 cargo run --release -t NUMBER_OF_THREADS
 ```
 
+// these were tested in a EPYC 7571. reason: amazon limits were in 48cores (96 vcpus) at the time.
+// actual 64 core (128vcpu) benchmark will be made as soon as amazon increases the vcpu limit (1 hour ~ 2 days)
+
 # Results
 
 Runtime | Run time
@@ -84,7 +87,7 @@ HVM-8   | 12.41s
 HVM-16  | 9.88s
 HVM-24  | 9.11s
 HVM-32  | 8.66s
-HVM-40  | TODO
-HVM-48  | TODO
+HVM-40  | 8.35s
+HVM-48  | 8.10s
 HVM-56  | 8.09s
-HVM-64  | 5.86s
+HVM-64  | 5.84s
