@@ -28,12 +28,23 @@ Kind2: problems
                         /\ não precisar dar nome
 - O compilador do Kind2<->Kindelia tá um lixinho
   - Ajustar nomes 
-    - Encurtar
-    - Ver se já existem
-    - Short Nicknames Kindelia
-  - Flattener (não é feito!)
-    (Foo (Pair.new Bool.true Bool.false)) = ... // .kdl invalido
+  - Encurtar nomes para 12 chars       <- implementar
+  - Permitir nicknames Kindelia        <- implementar
+  - Compilar construtores              <- implementar
+  - Compilar contrato / estado inicial <- implementar
+  - Compile U120 correctly             <- implementar
+
+  - Linearizar                         <- implementar
+  - Flattener                          <- implementar, se possível faz copiando o do hvm
+
+  - Ver se nome já existe              <- não implementar
   - Outras...
+
+
+Mul2 (x: U120) : U120 
+
+
+
 - Sugars do Kind1
   - Lista [1 2 3]
   - Mapa {x:1 y:2 z:3}
