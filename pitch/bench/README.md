@@ -17,7 +17,7 @@ graph search, n-body and so on. A more extensive suite is on development.
 Version:
 
 ```
-Apple clang version 14.0.0 (clang-1400.0.29.102)
+gcc (Ubuntu 9.4.0-1ubuntu1~20.04.1) 9.4.0
 ```
 
 Command:
@@ -32,7 +32,7 @@ time ./main_c
 Version:
 
 ```
-The Glorious Glasgow Haskell Compilation System, version 8.10.7
+The Glorious Glasgow Haskell Compilation System, version 8.6.5
 ```
 
 Command:
@@ -47,7 +47,7 @@ time ./main_hs
 Version:
 
 ```
-v17.4.0
+v10.19.0
 ```
 
 Command:
@@ -76,15 +76,15 @@ cargo run --release -t NUMBER_OF_THREADS
 
 Runtime | Run time
 ------- | --------
-GCC     | TODO 
-GHC     | TODO
-V8      | TODO
-HVM-1   | TODO
-HVM-8   | TODO
-HVM-16  | TODO
-HVM-24  | TODO
-HVM-32  | TODO
+GCC     | 25.356s 
+GHC     | 7.338s
+V8      | 16.110s
+HVM-1   | 31.559s
+HVM-8   | 12.41s
+HVM-16  | 9.88s
+HVM-24  | 9.11s
+HVM-32  | 8.66s
 HVM-40  | TODO
 HVM-48  | TODO
-HVM-56  | TODO
-HVM-64  | TODO
+HVM-56  | 8.09s
+HVM-64  | 5.86s
