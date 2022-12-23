@@ -73,6 +73,7 @@ cargo run --release -t NUMBER_OF_THREADS
 ```
 
 // these were tested in a EPYC 7571. reason: amazon limits were in 48cores (96 vcpus) at the time.
+
 // actual 64 core (128vcpu) benchmark will be made as soon as amazon increases the vcpu limit (1 hour ~ 2 days)
 
 # Results
