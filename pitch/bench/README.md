@@ -32,7 +32,7 @@ time ./main_c
 Version:
 
 ```
-The Glorious Glasgow Haskell Compilation System, version 8.6.5
+The Glorious Glasgow Haskell Compilation System, version 8.8.4
 ```
 
 Command:
@@ -80,13 +80,13 @@ cargo run --release -t NUMBER_OF_THREADS
 
 Runtime | Run time
 ------- | --------
-GCC     | 25.356s 
-GHC     | 7.338s
-V8      | 16.110s
-HVM-1   | 31.559s
-HVM-8   | 12.41s
-HVM-16  | 9.88s
-HVM-24  | 9.11s
+GCC     | 24.431s 
+GHC     | 6.518s
+V8      | 17.052s
+HVM-1   | 35.48s
+HVM-4   | 12.53s
+HVM-8   | 5.97s
+HVM-12  | 3.72s
 HVM-32  | 8.66s
 HVM-40  | 8.35s
 HVM-48  | 8.10s
