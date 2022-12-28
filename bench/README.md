@@ -74,17 +74,15 @@ time cargo run --release -- run -s 134217728 -t NUMBER_OF_THREADS
 
 # Results
 
-Runtime | Run time
-------- | --------
-GCC     | TODO 
-GHC     | TODO
-V8      | TODO
-HVM-1   | TODO
-HVM-8   | TODO
-HVM-16  | TODO
-HVM-24  | TODO
-HVM-32  | TODO
-HVM-40  | TODO
-HVM-48  | TODO
-HVM-56  | TODO
-HVM-64  | TODO
+Runtime | AMD Ryzen 9 5900X | Apple M1 Max
+------- | ----------------- | ------------
+GCC     | 15.035            | 20.030
+GHC     | 3.164             | 3.153
+V8      | 5.794             | 7.588
+HVM-1   | 9.851             | 9.690
+HVM-2   | 5.928             | 5.528
+HVM-4   | 3.274             | 3.057
+HVM-6   | 2.347             | 2.207
+HVM-8   | 1.754             | 1.807
+HVM-10  | 1.475             | -
+HVM-12  | 1.299             | -
