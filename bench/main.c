@@ -229,7 +229,7 @@ Arr* gen(uint64_t n) {
 }
 
 int main() {
-  Arr* arr_a = gen(24);
+  Arr* arr_a = gen(23);
   Arr* arr_b = reverse(arr_a);
   freeArr(arr_a);
   Arr* arr_c = sort(arr_b);

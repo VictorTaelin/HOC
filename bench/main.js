@@ -156,4 +156,4 @@ function gen(n) {
   return gen_go(n, 0);
 };
 
-console.log(sum(sort(reverse(gen(24)))));
+console.log(sum(sort(reverse(gen(23)))));

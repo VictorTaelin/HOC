@@ -76,4 +76,4 @@
 // Strict constructors
 (BOTH !a !b) = (Both a b)
 
-Main = (Sum (Sort (Reverse (Gen 24))))
+Main = (Sum (Sort (Reverse (Gen 23))))
