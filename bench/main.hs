@@ -88,4 +88,4 @@ gen n = gen_go n 0 where
 main :: IO ()
 main = do
   n <- read . head <$> getArgs :: IO Word64
-  print $ sum' (sort (reverse' (gen 23)))
+  print $ sum' (sort (reverse' (gen 24)))

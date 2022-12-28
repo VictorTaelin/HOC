@@ -53,7 +53,8 @@ v17.4.0
 Command:
 
 ```
-node main.js
+export NODE_OPTIONS="--max-old-space-size=8192"
+time node main.js
 ```
 
 ## Kind (HVM)
@@ -61,7 +62,7 @@ node main.js
 Version:
 
 ```
-hvm 1.0.19-beta
+hvm 1.0.20-beta
 ```
 
 Command:
@@ -69,7 +70,7 @@ Command:
 ```
 hvm compile main.hvm
 cd main
-cargo run --release -t NUMBER_OF_THREADS
+time cargo run --release -- run -s 134217728 -t NUMBER_OF_THREADS
 ```
 
 # Results
