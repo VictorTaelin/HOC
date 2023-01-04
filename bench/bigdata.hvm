@@ -1,8 +1,0 @@
-(BigData 0)    = 1
-(BigData 1)    = 1
-(BigData size) = (Tree (BigData (/ size 2)) (BigData (/ size 2)))
-
-(Sum (Tree x y)) = (+ (Sum x) (Sum y))
-(Sum n)          = n
-
-(Main n) = (Sum (BigData (<< 1 26)))
