@@ -1,0 +1,89 @@
+TODO-LIST
+---------
+
+This is a non-exhaustive list of immediate things to do before production.
+
+HVM:
+- Low Level Optimizations
+  | HVM doesn't have important optimizations that are expected pre-production.
+  - Inlining, loops, local mutability, etc.
+  - GHC parity on low-level optimizations
+  - JIT Compilation
+    | HVM requires Rust compiler. Because of that, the browser and Kindelia versions
+    | can only use the interpreter, which is much slower. A JIT would solve that.
+    - Can use CraneLift, LLVM or WASM
+- Concurrency Correctness
+  | HVM has some pending concurrency bugs that must be fixed before production.
+  - Model atomic operations: subst, rewriters, dup-locks, etc.
+  - Inspect, visualize and debug parallel execution
+  - Fix bugs, make adjustments, prove correctness
+- Functional Compatibility Layer
+  | HVM isn't compatible with the full λ-calculus, which makes compilation from
+  | conventional languages unsound. Solution is required before production.
+  - EAL+ Type-Checker: identify a compatible subset ("whitelist")
+  - Add Bracket/Croissant primitives, or equivalent (LambdaScope?)
+- User Experience
+  | Covers non-core features that are essential to end users.
+  - WASM compat: ensure it is WASM-compatible and provide tools to use from JS
+  - IO and FFI: add the required IO and FFI tools to practical use cases
+  - Lazy Printer: allow printing of infinite structures (as in Haskell)
+  - Rust API, Rust Docs, etc.
+- GPU Target
+  - Research, improve and polish our prototypal CUDA target
+  - Once good, create and maintain OpenCL, Metal and Vulkan targets
+
+ThreadBender
+- LangX->AST transpiler: compiles from lang X to IMP or FUN
+  * This is a continuous process, langs like JS are huge and have many features
+- Transpilers
+  - IMP->FUN transpiler: compiles from the procedural AST to the functional AST
+  - FUN->HVM transpiler: compiles from the functional AST to the HVM AST
+- LangX Integration: integrates lang X to allow seamless HVM decoration
+
+Kindelia
+- Protocol: formalize the rules in Kind: agents, txs, execution, rollback, etc.
+- Network: peer connection, block propagation, consensus algorithm
+
+Kind
+- Lang features: add missing features (getters/setters, loops, nested match, etc.)
+- Proof features: termination checker, clone checker, totality checker, etc.
+- IO, FFI and App features: back-end server, app target (react, etc.), room-db
+- HVM compiler: improvements & maintenance
+- Tests and benchmark suite
+
+Team
+----
+
+HVM:
+- 1x Senior Rust Developer, type theory and inet background (taelin?)
+    - 1x Senior Rust Developer, low-level assembly expert
+        - 1x Rust Developer, low-level assembly experienced
+        - 1x Senior Rust Developer, parallel programming expert
+    - 1x Haskell Developer (Derenash)
+        - 1x Rust Developer, Rust ecosystem experience
+        - 1x Senior Rust Developer, CUDA or equivalent GPGPU expert (optional)
+
+ThreadBender
+- 1x Senior Haskell Developer, experience in functional and compilers
+    - 1x Haskell Developer, experience in functional and compilers (optional)
+    - 1x Haskell Developer (Santi)
+- 1x Senior Haskell Developer, experience in functional and compilers
+    - 1x Haskell Developer, experience in functional and compilers (optional)
+    - 1x Haskell Developer (Nicolas)
+
+Kind
+- 1x Haskell Developer (Chiyoku deus do kind)
+    - 1x Haskell Developer, type theory expert (optional)
+    - 1x Senior Haskell Developer, type theory expert (optional)
+
+Kindelia
+- 1x Senior Rust Developer, experience in networking and blockchains (optional)
+    - 1x Rust Developer, experience in networking and blockchains (optional)
+
+Notas: Estou cotando apenas o necessário para entregar a parte técnica do
+produto. Não estou considerando landing page, billing, e similares. A maior
+carga de trabalho será em tornar a HVM production ready. O ThreadBender, em si,
+é relativamente muito mais simples. Porém o ThreadBender *depende* da HVM
+funcionando para ter valor. Não adianta compilar JS para HVM e o código rodar
+com menos eficiência, ou ter bugs. Todos os devs listados requerem alto nível de
+senioridade (10+ anos de xp). É um projeto extremamente complexo tecnicamente.
