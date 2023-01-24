@@ -17,13 +17,6 @@ will cover the following:
 
 4. Release and market, focusing on adoption
 
-We'll **not** include the following items from the pitch deck:
-
-1. ThreadBender B2B Business. We want to focus on building the tech and
-   promoting adoption. We will rework the business model through the year.
-
-We will run out of funds in Q1 2025, for a 2 year runway.
-
 Initial projected budget for the $5m goal:
 
 Title    | Project    | Skills         | Function                | Salary   | Person 
@@ -52,18 +45,21 @@ DevOps   | Infra      |                |                         |  $25,000 | Ki
 Lawyer   | Legal      |                | Incorporation, Patents  | $100,000 | ?
 
 ```
-2y Salary Total = $4,200,000 where
-    HVM         = $ 1,200,000
-    Thd.Bender  = $   500,000
-    Kindelia    = $   550,000
-    Kind-Lang   = $   700,000
-    TheHOC.com  = $   400,000
-    DevOps      = $    50,000     
-    Legal       = $   200,000
-    Leads       = $   600,000
+Projected Seed Budget:
++ Leads       = $   600,000
++ HVM         = $ 1,200,000
++ Thd.Bender  = $   500,000
++ Kindelia    = $   550,000
++ Kind-Lang   = $   700,000
++ TheHOC.com  = $   400,000
++ DevOps      = $    50,000     
++ Legal       = $   200,000
++ Unexpected  = $   800,000 * taxes, fees, hires, equipment, cloud, etc.
+---------------------------
+Total         = $ 5,000,000
 ```
 
-**Optionally**, we'll cover the following:
+**Optionally**, we'll cover the following, for an additional :
 
 1. Formalization of Interaction Calculus on Kind-Lang: + $200k
 
@@ -78,20 +74,24 @@ Projected stretch goal budget:
 Title    | Project    | Skills         | Function                | Salary   | Person 
 -------- | ---------- | -------------- | ----------------------- | -------- | ------ 
 Sr. Dev  | HVM Formal | Coq            | Formalization of HVM    | $100,000 | ?
-Sr. Dev  | HVM HPU    | Verilog / VHDL | HVM hardware research   | $200,000 | ?
+Sr. Dev  | HVM FPGA   | Verilog / VHDL | HVM hardware research   | $200,000 | ?
 Sr. Dev  | HVM GPU    | CUDA / Vulkan  | HVM GPU target          | $150,000 | ?
 Sr. Dev  | HVM GPU    | CUDA / Vulkan  | HVM GPU target          | $150,000 | ?
 Sr. Dev  | HVM STARKs | zk-proofs      | HVM spec. circuits      | $200,000 | ?
 
-Our projects have synergy and form a connected ecosystem.
+We'll **not** include/ship the following items from the pitch deck:
 
-- **HVM** is the heart of everything: all projects run on it.
+1. ThreadBender B2B Business. We want to focus on building the tech and promote
+   adoption. Once we have usage on Kindelia, ThreadBender and Kind, we'll be in
+   a better position to rework our business plan.
 
-- **Kindelia** can be used to host unstoppable **Kind** applications.
+2. HPUs: we can't produce them now, but could in a future, from FPGA research.
 
-- **Kind** makes **Kindelia** more secure, via formal verification.
+3. Cute Cats: we'll keep them for ourselves.
 
-- **ThreadBender** improves **Kindelia** by allowing JavaScript contracts.
+We will run out of funds in Q1 2025, for a 2 year runway.
+
+For an in-depth overview, check [accounting.xlsx](accounting.xlsx).
 
 Up to 2022: Research and Prototype
 ----------------------------------
@@ -172,6 +172,18 @@ These, combined with other design choices that abide to HoC's standard of
 quality, make Kindelia the most efficient and secure layer 1 in the world. We
 believe it has everything it takes to become the Bitcoin of peer-to-peer
 computers, and the home of the massive metaverses of the future.
+
+### Synergy
+
+Our projects have synergy and form a connected ecosystem.
+
+- **HVM** is the heart of everything: all projects run on it.
+
+- **Kindelia** can be used to host unstoppable **Kind** applications.
+
+- **Kind** makes **Kindelia** more secure, via formal verification.
+
+- **ThreadBender** improves **Kindelia** by allowing JavaScript contracts.
 
 2024: Adoption and Business
 ---------------------------
