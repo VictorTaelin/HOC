@@ -81,9 +81,9 @@ Sr. Dev  | HVM STARKs | zk-proofs      | HVM spec. circuits      | $200,000 | ?
 
 We'll **not** include/ship the following items from the pitch deck:
 
-1. ThreadBender B2B Business. We want to focus on building the tech and promote
-   adoption. Once we have usage on Kindelia, ThreadBender and Kind, we'll be in
-   a better position to rework our business plan.
+1. ThreadBender B2B Business. In 2023, we will focus on building the tech and
+   promote adoption. Once we have usage on Kindelia, ThreadBender and Kind,
+   we'll be in a better position to rework our business plan.
 
 2. HPUs: we can't produce them now, but could in a future, from FPGA research.
 
