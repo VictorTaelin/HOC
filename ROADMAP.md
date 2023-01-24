@@ -59,7 +59,7 @@ Projected Seed Budget:
 Total         = $ 5,000,000
 ```
 
-**Optionally**, we'll cover the following, for an additional :
+**Optionally**, we'll cover the following, for an additional $2.8m:
 
 1. Formalization of Interaction Calculus on Kind-Lang: + $200k
 
