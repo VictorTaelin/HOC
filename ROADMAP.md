@@ -23,7 +23,7 @@ Title    | Project    | Skills         | Function                | Salary   | Pe
 -------- | ---------- | -------------- | ----------------------- | -------- | ------ 
 Lead Dev | HoC        | Many           | Lead                    | $200,000 | Taelin 
 Lead Com | HoC        | Many           | Lead                    | $100,000 | Sipher 
-Sr. Dev  | HVM        | Coq/Kind       | Correctness             | $200,000 | ?
+Sr. Dev  | HVM        | Coq / Kind     | Correctness             | $200,000 | ?
 Sr. Dev  | HVM        | Rust           | JIT Compiler            | $200,000 | ?
 Sr. Dev  | HVM        | Rust           | Low-Level Optimizations | $200,000 | ?
 Sr. Dev  | Thd.Bender | Haskell / Kind | JS-HVM Transpiler       | $150,000 | ?
