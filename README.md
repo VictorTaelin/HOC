@@ -1,9 +1,8 @@
 Higher Order Company
 ====================
 
-Company in development!
+Welcome to the massive parallel future of computation!
 
-Check our pitch deck in [PDF](https://github.com/VictorTaelin/HOC/raw/master/pitch/higher_order_company.pdf), [KeyNote](https://github.com/VictorTaelin/HOC/raw/master/pitch/higher_order_company.key) or [PowerPoint](https://github.com/VictorTaelin/HOC/raw/master/pitch/higher_order_company.pptx).
+Check our pitch deck [here](https://github.com/VictorTaelin/HOC/raw/master/pitch/higher_order_company.pdf).
 
-Check our ROADMAP and plan [here](plan.md).
-
+Check our ROADMAP [here](ROADMAP.md).

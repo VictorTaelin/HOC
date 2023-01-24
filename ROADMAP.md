@@ -1,5 +1,97 @@
-The Higher Order Company: Roadmap
-=================================
+HoC's ROADMAP
+=============
+
+Overview
+--------
+
+Pre 2022, we've researched a new model of computation. In 2022, we released
+HVM's threadbender, a massively parallel runtime that outperforms state-of-art
+alternatives given enough cores. In 2023, we'll raise a $5m seed round that
+will cover the following:
+
+1. Incorporate and structure the Higher Order Company
+
+2. Hire a team of developers
+
+3. Develop ThreadBender, Kindelia and Kind
+
+4. Release and market, focusing on adoption
+
+We'll **not** include the following items from the pitch deck:
+
+1. ThreadBender B2B Business. We want to focus on building the tech and
+   promoting adoption. We will rework the business model through the year.
+
+We will run out of funds in Q1 2025, for a 2 year runway.
+
+Initial projected budget for the $5m goal:
+
+Title    | Project    | Skills         | Function                | Salary   | Person 
+-------- | ---------- | -------------- | ----------------------- | -------- | ------ 
+Lead Dev | HoC        | Many           | Lead                    | $200,000 | Taelin 
+Lead Com | HoC        | Many           | Lead                    | $100,000 | Sipher 
+Sr. Dev  | HVM        | Coq/Kind       | Correctness             | $200,000 | ?
+Sr. Dev  | HVM        | Rust           | JIT Compiler            | $200,000 | ?
+Sr. Dev  | HVM        | Rust           | Low-Level Optimizations | $200,000 | ?
+Sr. Dev  | Thd.Bender | Haskell / Kind | JS-HVM Transpiler       | $150,000 | ?
+Jr. Dev  | Thd.Bender | Haskell / Kind | JS-HVM Transpiler       |  $50,000 | Nicolas
+Jr. Dev  | Thd.Bender | Haskell / Kind | JS-HVM Transpiler       |  $50,000 | Santi 
+Sr. Dev  | Kindelia   | Rust           | Networking & Consensus  | $150,000 | ?
+Jr. Dev  | Kindelia   | Haskell / Kind | Protocol & Execution    |  $50,000 | Derenash
+Jr. Dev  | Kindelia   | Rust           | Tooling & QA            |  $50,000 | Rheidner?
+Jr. Dev  | Kindelia   | Haskell / Kind | Demo Contracts          |  $25,000 | ?
+Sr. Dev  | Kind-Lang  | Type-Theory    | Research                | $150,000 | ?
+Mid Dev  | Kind-Lang  | Haskell / Kind | Kind Design             |  $75,000 | Chiyoku
+Jr. Dev  | Kind-Lang  | Haskell / Kind | Kind Package Manager    |  $50,000 | Vicky?
+Jr. Dev  | Kind-Lang  | Haskell / Kind | ChatGPT + Wikind        |  $25,000 | Bonatto?
+Jr. Dev  | Kind-Lang  | Haskell / Kind | ChatGPT + Wikind        |  $25,000 | Samuel?
+Jr. Dev  | Kind-Lang  | Haskell / Kind | ChatGPT + Wikind        |  $25,000 | Sávio?
+Sr. Dev  | TheHOC.com | Web Full-Stack | Landing Pages           | $100,000 | ?
+Designer | TheHOC.com | UI / UX        | Landing Pages           | $100,000 | ?
+DevOps   | Infra      |                |                         |  $25,000 | Kingu?
+Lawyer   | Legal      |                | Incorporation, Patents  | $100,000 | ?
+
+```
+2y Salary Total = $4,200,000 where
+    HVM         = $ 1,200,000
+    Thd.Bender  = $   500,000
+    Kindelia    = $   550,000
+    Kind-Lang   = $   700,000
+    TheHOC.com  = $   400,000
+    DevOps      = $    50,000     
+    Legal       = $   200,000
+    Leads       = $   600,000
+```
+
+**Optionally**, we'll cover the following:
+
+1. Formalization of Interaction Calculus on Kind-Lang: + $200k
+
+3. HVM GPU target (CUDA/Vulkan): + $600k
+
+2. Research HVM on hardware (FPGA/VHDL): + $400k
+
+4. Research HVM on zk-STARKs: + $200k
+
+Projected stretch goal budget:
+
+Title    | Project    | Skills         | Function                | Salary   | Person 
+-------- | ---------- | -------------- | ----------------------- | -------- | ------ 
+Sr. Dev  | HVM Formal | Coq            | Formalization of HVM    | $100,000 | ?
+Sr. Dev  | HVM HPU    | Verilog / VHDL | HVM hardware research   | $200,000 | ?
+Sr. Dev  | HVM GPU    | CUDA / Vulkan  | HVM GPU target          | $150,000 | ?
+Sr. Dev  | HVM GPU    | CUDA / Vulkan  | HVM GPU target          | $150,000 | ?
+Sr. Dev  | HVM STARKs | zk-proofs      | HVM spec. circuits      | $200,000 | ?
+
+Our projects have synergy and form a connected ecosystem.
+
+- **HVM** is the heart of everything: all projects run on it.
+
+- **Kindelia** can be used to host unstoppable **Kind** applications.
+
+- **Kind** makes **Kindelia** more secure, via formal verification.
+
+- **ThreadBender** improves **Kindelia** by allowing JavaScript contracts.
 
 Up to 2022: Research and Prototype
 ----------------------------------
@@ -93,28 +185,3 @@ crypto enthusiasts - then, we'll be able to reach a much wider audience and be
 widely recognized as a competent company capable of shipping groundbreaking
 technology. Once we've stablished a respected name in the market, we will be in
 a much stronger position to research ways to profit from our products.
-
-Team
-====
-
-Title    | Project    | Skills         | Function                | Person 
--------- | ---------- | -------------- | ----------------------- | ------ 
-CEO      | HoC        | Many           | Lead                    | Sipher 
-CTO      | HoC        | Many           | Lead                    | Taelin 
-Sr. Dev  | HVM        | Coq            | Correctness             | ?
-Sr. Dev  | HVM        | Rust           | JIT Compiler            | ?
-Sr. Dev  | HVM        | Rust           | Low-Level Optimizations | ?
-Sr. Dev  | Thd.Bender | Haskell        | JS-HVM Transpiler       | ?
-Mid Dev  | Thd.Bender | Haskell        | JS-HVM Transpiler       | Nicolas
-Mid Dev  | Thd.Bender | Haskell        | JS-HVM Transpiler       | Santi 
-Sr. Dev  | Kindelia   | Rust           | Networking              | ?
-Mid Dev  | Kindelia   | Rust           | Tooling                 | Rheidner?
-Mid Dev  | Kindelia   | Rust/Haskell   | Protocol                | Derenash?
-Sr. Dev  | Kind-Lang  | Type Theory    | Research                | ?
-Mid Dev  | Kind-Lang  | Haskell        | Kind Design             | Chiyoku
-Mid Dev  | Kind-Lang  | Haskell        | Kind Package Manager    | Vicky?
-Jr. Dev  | Kind-Lang  | Haskell        | ChatGPT + Wikind        | Sávio?
-Jr. Dev  | Kind-Lang  | Haskell        | ChatGPT + Wikind        | Bonatto?
-Sr. Dev  | TheHOC.com | Web Full-Stack | Landing Pages           | ?
-Designer | TheHOC.com | UI / UX        | Landing Pages           | ?
-Attorney | Legal      |                | Incorporation, Patents  | ?
