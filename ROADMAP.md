@@ -91,7 +91,7 @@ We'll **not** include/ship the following items from the pitch deck:
 
 We will run out of funds in Q1 2025, for a 2 year runway.
 
-For an in-depth overview, check [accounting.xlsx](accounting.xlsx).
+For an in-depth overview, check [accounting.xlsx](https://docs.google.com/spreadsheets/d/1RUpc6QHHyJKtAcQKVHmXQn-waso8ptad0eNlEs0LaC4/edit?usp=sharing).
 
 Up to 2022: Research and Prototype
 ----------------------------------
