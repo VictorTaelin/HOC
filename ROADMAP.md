@@ -4,10 +4,10 @@ HoC's ROADMAP
 Overview
 --------
 
-Pre 2022, we've researched a new model of computation. In 2022, we released
-HVM's threadbender, a massively parallel runtime that outperforms state-of-art
-alternatives given enough cores. In 2023, we'll raise a $5m seed round that
-will cover the following:
+Pre 2022, we've researched a new model of computation. In 2022, we released HVM,
+a massively parallel runtime that outperforms state-of-art alternatives given
+enough cores. In 2023, we'll raise a $5m seed round that will cover the
+following:
 
 1. Incorporate and structure the Higher Order Company
 
