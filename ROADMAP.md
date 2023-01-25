@@ -98,7 +98,7 @@ Up to 2022: Research and Prototype
 
 After decades of researching a new model of computation, the [Interaction
 Net](https://www.semanticscholar.org/paper/Interaction-Combinators-Lafont/6cfe09aa6e5da6ce98077b7a048cb1badd78cc76),
-and after a several engineering breakthroughs, Taelin, in 2022, developed the
+and after a several engineering breakthroughs, we've, in 2022, developed the
 prototype for HVM, the first massively parallel runtime in the world. In our
 benchmarks, HVM has shown its ability to scale in performance horizontally with
 cores. That is, by computing high-level primitives like lambdas,
@@ -130,7 +130,7 @@ Thanks to HVM's powerful parallelization primitives - beta-reduction,
 pattern-matching, equational rewrites - ThreadBender is capable of transpiling
 high-level languages such as Python, JavaScript and Go to HVM, allowing
 developers to run existing code in dozens of cores. As processors become more
-parallel, the pressure to parallelize software gets bigger. The programming
+parallel, the pressure to parallelize software will increase. The programming
 industry is due to a revolution on how we write code. By being as simple as
 Python and as parallel as CUDA, ThreadBender has everything it takes to lead
 this revolution.
@@ -138,20 +138,20 @@ this revolution.
 ### Kind
 
 Mathematicians won't check proofs manually forever. There is a growing body of
-mathematicians attemtping to [digitalize
+academics attempting to [digitalize
 mathematics](https://www.youtube.com/watch?v=Dp-mQ3HxgDE) right now. In a
-future, all major theorems and proofs will be available in a giantic ecosystem
+future, all major theorems and proofs will be available in a huge ecosystem
 of proofs that you can import, modify and check automatically, just like package
-managers of programming like JavaScript's npm or Rust's cargo.
+managers of programming like JavaScript's npm or Rust's cargo work today.
 
-For that to happen, we need something: a proof checker. All stablished proof
-checkers (Coq, Lean, Agda, Idris) are extremely slow and have a sub-par UI/UX.
-Thanks to HVM, we can proudly claim Kind is, by far, the [fastest proof
+For that to happen, though, we need something: a proof checker. All stablished
+proof checkers (Coq, Lean, Agda...) are extremely slow and have a sub-par UI/UX.
+Thanks to HVM, we can proudly claim Kind is, by far, the [**fastest** proof
 checker](https://github.com/kindelia/functional-benchmarks) in the world today.
 It is not the **best** though: it is still missing important features, including
 a package manager, a totality checker, tactics, among others. We will make
-Kind-Lang the best proof-checker in the world. Once we do, we will be in a
-privileged position to dominate this market, that will be huge in the future.
+Kind-Lang the best proof-checker. Once we do, will be in a privileged position
+to dominate this market, that will be huge in the future.
 
 ### Kindelia
 
@@ -166,12 +166,12 @@ kernel one day. Kindelia will be that.
 Thanks to HVM, Kindelia's computate and space throughput can be 500x higher than
 Ethereum, making it capable of hosting massive, real-time online worlds; and,
 no, that's not relying on layer 2, increased centralization, or complex crypto
-that greatly impact UX. Moreover, its contracts have their security backed by
+that greatly impacts UX. Moreover, its contracts have their security backed by
 mathematical proofs, making it the most trustworthy home for these assets.
 These, combined with other design choices that abide to HoC's standard of
 quality, make Kindelia the most efficient and secure layer 1 in the world. We
 believe it has everything it takes to become the Bitcoin of peer-to-peer
-computers, and the home of the massive metaverses of the future.
+computers, and the host of the massive metaverses of the future.
 
 ### Synergy
 
