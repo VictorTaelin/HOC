@@ -31,3 +31,4 @@ fn test_meaning_of_life() {
   let x = fun(19);
   assert(true);
 }
+
