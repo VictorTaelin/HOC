@@ -1,6 +1,6 @@
 script;
 
-fn fun(n: u64) -> u64 {
+fn fib(n: u64) -> u64 {
   let mut stack : Vec<u64> = Vec::new();
   stack.push(n);
   let mut result = 0;
@@ -28,7 +28,7 @@ fn main() {
 
 #[test]
 fn test_meaning_of_life() {
-  let x = fun(19);
+  let x = fib(19);
   assert(true);
 }
 

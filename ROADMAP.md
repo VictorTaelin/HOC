@@ -161,15 +161,17 @@ innovations to the field, but, from the end-user perspective, are still
 underwhelming in several aspects: scalability, security, UX, as well as
 economical and political centralization - all of which are important for
 widespread adoption. It is hard to name a layer 1 that could be part of Linux's
-kernel one day. Kindelia will be that.
+kernel one day. Kindelia will be the most efficient and secure execution layer
+in the world. Integrated with Celestia, it will become the most robust layer 1.
 
 Thanks to HVM, Kindelia's computate and space throughput can be 500x higher than
-Ethereum, making it capable of hosting massive, real-time online worlds; and,
-no, that's not relying on layer 2, increased centralization, or complex crypto
-that greatly impacts UX. Moreover, its contracts have their security backed by
-mathematical proofs, making it the most trustworthy home for these assets.
-These, combined with other design choices that abide to HoC's standard of
-quality, make Kindelia the most efficient and secure layer 1 in the world. We
+Ethereum and FuelVM, making it capable of hosting massive, real-time online
+worlds on-chain, without relying on layer 2, increased centralization, or
+complex crypto primitives. Moreover, Kindelia contracts can have their code
+verified by proofs, giving absolute mathematical security - after all, what's
+the point of unstoppable applications, if they're stopped by a bug? These,
+combined with other design choices that abide to HoC's standard of quality, will
+make Kindelia the most efficient and secure crypto-computer in the world. We
 believe it has everything it takes to become the Bitcoin of peer-to-peer
 computers, and the host of the massive metaverses of the future.
 
