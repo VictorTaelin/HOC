@@ -1,8 +1,8 @@
 (Fib 0 a b) = a
 (Fib i a b) = (Fib (- i 1) b (+ a b))
 
-//(Main n) = (Fib 220000 0 1) // <- 0s on HVM, 1s on FuelVM
-(Main n) = (Fib 120000000 0 1) // <- 1s on HVM, would take 545s on FuelVM
+//(Main) = (Fib 220000 0 1) // <- 0s on HVM, 1s on FuelVM
+(Main) = (Fib 120000000 0 1) // <- 1s on HVM, would take 545s on FuelVM
 
 // On this loop (no allocations, no recursion, no parallelism),
 // HVM seems to perform 545x faster than FuelVM
