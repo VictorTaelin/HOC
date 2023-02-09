@@ -19,30 +19,32 @@ following:
 
 Initial projected budget for the $5m goal:
 
-Title    | Project    | Skills         | Function                | Salary   | Person 
--------- | ---------- | -------------- | ----------------------- | -------- | ------ 
-Lead Dev | HoC        | Many           | Lead                    | $200,000 | Taelin 
-Lead Com | HoC        | Many           | Lead                    | $100,000 | Sipher 
-Sr. Dev  | HVM        | Coq / Kind     | Correctness             | $200,000 | ?
-Sr. Dev  | HVM        | Rust           | JIT Compiler            | $200,000 | ?
-Sr. Dev  | HVM        | Rust           | Low-Level Optimizations | $200,000 | ?
-Sr. Dev  | Thd.Bender | Haskell / Kind | JS-HVM Transpiler       | $150,000 | ?
-Jr. Dev  | Thd.Bender | Haskell / Kind | JS-HVM Transpiler       |  $50,000 | Nicolas
-Jr. Dev  | Thd.Bender | Haskell / Kind | JS-HVM Transpiler       |  $50,000 | Santi 
-Sr. Dev  | Kindelia   | Rust           | Networking & Consensus  | $150,000 | ?
-Jr. Dev  | Kindelia   | Haskell / Kind | Protocol & Execution    |  $50,000 | Derenash
-Jr. Dev  | Kindelia   | Rust           | Tooling & QA            |  $50,000 | Rheidner?
-Jr. Dev  | Kindelia   | Haskell / Kind | Demo Contracts          |  $25,000 | ?
-Sr. Dev  | Kind-Lang  | Type-Theory    | Research                | $150,000 | ?
-Mid Dev  | Kind-Lang  | Haskell / Kind | Kind Design             |  $75,000 | Chiyoku
-Jr. Dev  | Kind-Lang  | Haskell / Kind | Kind Package Manager    |  $50,000 | Vicky?
-Jr. Dev  | Kind-Lang  | Haskell / Kind | ChatGPT + Wikind        |  $25,000 | Bonatto?
-Jr. Dev  | Kind-Lang  | Haskell / Kind | ChatGPT + Wikind        |  $25,000 | Samuel?
-Jr. Dev  | Kind-Lang  | Haskell / Kind | ChatGPT + Wikind        |  $25,000 | Sávio?
-Sr. Dev  | TheHOC.com | Web Full-Stack | Landing Pages           | $100,000 | ?
-Designer | TheHOC.com | UI / UX        | Landing Pages           | $100,000 | ?
-DevOps   | Infra      |                |                         |  $25,000 | Kingu?
-Lawyer   | Legal      |                | Incorporation, Patents  | $100,000 | ?
+Title    | Project    | Skills         | Function                | Salary    | Person 
+-------- | ---------- | -------------- | ----------------------- | --------- | ------ 
+Lead Dev | HoC        | Many           | Lead                    |  $200,000 | Taelin 
+Lead Com | HoC        | Many           | Lead                    |  $100,000 | Sipher 
+Sr. Dev  | HVM        | Coq / Kind     | Correctness             |  $200,000 | ?
+Sr. Dev  | HVM        | Rust           | JIT Compiler            |  $200,000 | ?
+Sr. Dev  | HVM        | Rust           | Low-Level Optimizations |  $200,000 | ?
+Sr. Dev  | Thd.Bender | Haskell / Kind | JS-HVM Transpiler       |  $150,000 | ?
+Jr. Dev  | Thd.Bender | Haskell / Kind | JS-HVM Transpiler       | R$260,000 | Nicolas
+Jr. Dev  | Thd.Bender | Haskell / Kind | JS-HVM Transpiler       | R$260,000 | Santi 
+Sr. Dev  | Kindelia   | Rust           | Networking & Consensus  |  $150,000 | ?
+Jr. Dev  | Kindelia   | Haskell / Kind | Protocol & Execution    | R$260,000 | Derenash
+Jr. Dev  | Kindelia   | Rust           | Tooling & QA            | R$260,000 | Rheidner?
+Jr. Dev  | Kindelia   | Haskell / Kind | Demo Contracts          | R$130,000 | ?
+Sr. Dev  | Kind-Lang  | Type-Theory    | Research                |  $150,000 | ?
+Mid Dev  | Kind-Lang  | Haskell / Kind | Kind Design             | R$390,000 | Chiyoku
+Jr. Dev  | Kind-Lang  | Haskell / Kind | Kind Package Manager    | R$260,000 | Vicky?
+Jr. Dev  | Kind-Lang  | Haskell / Kind | ChatGPT + Wikind        | R$130,000 | Bonatto?
+Jr. Dev  | Kind-Lang  | Haskell / Kind | ChatGPT + Wikind        | R$130,000 | Samuel?
+Jr. Dev  | Kind-Lang  | Haskell / Kind | ChatGPT + Wikind        | R$130,000 | Sávio?
+Sr. Dev  | TheHOC.com | Web Full-Stack | Landing Pages           |  $100,000 | ?
+Designer | TheHOC.com | UI / UX        | Landing Pages           |  $100,000 | ?
+DevOps   | Infra      |                |                         | R$130,000 | Kingu?
+Lawyer   | Legal      |                | Incorporation, Patents  |  $100,000 | ?
+
+Note: 
 
 ```
 Projected Seed Budget:
@@ -90,8 +92,6 @@ We'll **not** include/ship the following items from the pitch deck:
 3. Cute Cats: we'll keep them for ourselves.
 
 We will run out of funds in Q1 2025, for a 2 year runway.
-
-For an in-depth overview, check [accounting.xlsx](https://docs.google.com/spreadsheets/d/1RUpc6QHHyJKtAcQKVHmXQn-waso8ptad0eNlEs0LaC4/edit?usp=sharing).
 
 Up to 2022: Research and Prototype
 ----------------------------------
