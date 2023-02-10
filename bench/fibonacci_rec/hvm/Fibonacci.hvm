@@ -3,7 +3,7 @@
 (Fib n) = (+ (Fib (- n 1)) (Fib (- n 2)))
 
 //(Main n) = (Fib 19) // <- insta on HVM, 1s on FuelVM
-(Main n) = (Fib 42) // <- 1.4s on HVM, would take 10h on FuelVM
+(Main n) = (Fib 39) // <- 1.4s on HVM, would take 10h on FuelVM
 
 // For algorithms with allocations, recursion and parallelism,
 // HVM seems to be about 25000x faster

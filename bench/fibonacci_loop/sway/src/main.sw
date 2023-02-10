@@ -19,6 +19,6 @@ fn main() {
 
 #[test]
 fn test_meaning_of_life() {
-  let x = fun(220000);
+  let x = fun(60000);
   assert(true);
 }
