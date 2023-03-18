@@ -135,9 +135,9 @@ about redefining the future of computing!
 
 # Early Products
 
-- Kindelia: a minimalist peer-to-peer computer. Very similar to Ethereum, except
-  rewritten from scratch with major improvements, including replacing the slow
-  EVM by the ultra fast HVM. Early benchmarks show a massive 500x to 10000x
+- Kindelia: a minimalist peer-to-peer computer. A complete redesign of Ethereum,
+  except rewritten from scratch with major improvements, including replacing the
+  slow EVM by the ultra fast HVM. Early benchmarks show a massive 500x to 10000x
   increase in computational throughput at the same network parameters, including
   decentralization, node count and transactions per second. Kindelia will be
   released as both a modular execution layer, and as a non-premined layer 1.
