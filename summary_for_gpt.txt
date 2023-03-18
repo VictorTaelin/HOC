@@ -1,0 +1,145 @@
+# Taelin's early comments about his work:
+
+I've been getting a lot of DMs about HVM, Kindelia, and Kind, so here's a TECH
+THREAD with a sneak peek of our early-stage work. As a programming language
+theory nerd, I found Yves Lafont's 1997 paper on Interaction Nets, an unexplored
+computational model with potential to be superior to current methods.
+Interaction Nets are parallel, memory-efficient, high-order, and mathematically
+elegant, enabling us to tap into massive parallelism. I developed SIC, a
+λ-Calculus alternative based on Interaction Nets, then built HVM, a
+general-purpose runtime for massively parallel programs. The results? HVM
+outperformed GHC (a leading functional compiler) by 300% in some tasks, and Kind
+(a dependent type checker) outperformed proof assistants like Lean, Coq, Agda,
+and Idris. We applied HVM to blockchains, creating Kindelia, an Ethereum clone
+with 100x-1000x higher throughput. We're exploring running Elm on HVM for 3D
+games and shaders, and investigating HVM's ability to solve number theory
+problems exponentially faster. Some limitations: HVM can be slower than GHC in
+certain cases, and doesn't fully replace it. Non-asymptotic speedups come from
+HVM using more cores, so parallel C or Haskell might still outperform it. But
+HVM's real advantage is scaling horizontally with minimal effort, making
+parallelism accessible. We've founded a company to develop HVM, build
+applications (runtimes, type-checkers, shaders, blockchains), and explore
+hardware-based Interaction Nets. With initial investment and a talented dev
+team, we're excited for the future!
+
+# Higher-order Virtual Machine (HVM's README)
+
+Higher-order Virtual Machine (HVM) is a functional, lazy, non-garbage-collected,
+and massively parallel runtime. It outperforms alternatives like Haskell's GHC
+due to its new computational model, the Interaction Net, which improves upon
+Turing Machines and Lambda Calculus. A recent breakthrough has significantly
+enhanced its efficiency, making HVM competitive with mature compilers and poised
+for unprecedented performance.
+
+HVM avoids a global garbage collector as each object exists in one place,
+similar to Rust. When an object requires multiple references, HVM employs a lazy
+clone primitive, making cloning virtually cost-free. This primitive also works
+for lambdas, enabling computation sharing within lambdas, which GHC cannot do.
+HVM's unique object existence simplifies parallelism.
+
+The key to HVM's speed lies in a new memory format based on the Interaction
+Calculus, which reduces memory usage by 50% and increases runtime speed by 50
+times. This breakthrough allows HVM to compete with GHC and similar compilers.
+
+HVM's optimality and complexity stem from literature on functional programming
+language evaluation. It is a practical implementation of the bookkeeping-free
+reduction machine outlined in a book by Andrea Asperti and Stefano Guerrini.
+HVM's features maintain complexity and adhere to the theoretical model's
+complexity bounds and proofs.
+
+# FAQ
+
+### Why do the benchmarks compare single-thread vs multi-core?
+
+They include a single-threaded HVM execution line, which is usually 3x slower
+than GHC, and a multi-core HVM execution line to visualize how its performance
+scales with added cores. Multi-core GHC execution is not included as it doesn't
+support automatic parallelism.
+
+### Does HVM support the full λ-Calculus, or System-F?
+
+Not yet. HVM is an implementation of the bookkeeping-free version of the
+reduction algorithm proposed on TOIOFPL book, up to page 40. It is Turing
+complete, and covers a wide subset of the λ-calculus, including terms such as
+the Y-combinator, church encodings, and recursion.
+
+### Will HVM support the full λ-Calculus, or System-F?
+
+Yes. We plan to implement the full algorithm described on the TOIOFPL, i.e.,
+after page 40. To reduce the associated slowdown, we'll use EAL inference.
+
+### Are unsupported terms "Undefined Behavior"?
+
+No. Unsupported λ-terms don't cause HVM to display undefined behavior. HVM
+will always behave deterministically, and give you a correct result in terms of
+Interaction Calculus (IC) semantics.
+
+### What is HVM's main innovation, in simple terms?
+
+HVM's performance, parallelism and GC-freedom come from its linear core, just
+like Rust. On top of it, instead of adding loops and references, HVM adds
+recursion and a lazy, incremental cloning primitive. This makes cloning
+essentially free, and covers all primitives of HVM's runtime.
+
+### Is HVM always asymptotically faster than GHC?
+
+No. In most common cases, it will have the same asymptotics. In some cases, it
+is exponentially faster. There are multiple ways to alleviate this problem,
+including safe pointers, linearity analysis, and references.
+
+### How is the memory footprint of HVM, compared to other runtimes?
+
+Interaction nets add no overhead, and HVM instantly collects any piece of data
+that becomes unreachable, just like Rust. Currently, HVM doesn't implement
+memory-efficient features like references, loops and local mutability, so it
+will have increased memory footprint in relation to C and Rust programs.
+
+### Is HVM meant to replace GHC?
+
+No. HVM is meant to be a lightweight, massively parallel runtime for functional
+and imperative languages. We do want to support Haskell, but that will require
+HVM being in a much later stage of maturity.
+
+### Is HVM production-ready?
+
+No. HVM is still to be considered a prototype. We're raising funds to have a
+proper team of engineers working on the HVM. If all goes well, we can expect a
+production-ready release by Q1 2024.
+
+### Transforming HVM into a Revolutionary Processor - The Vision Behind HOC
+
+Imagine a world where HVM becomes a processor! As a VM (Virtual Machine), HVM
+already stands out from the rest due to its high-level primitive operations.
+Unlike the JVM (Java Virtual Machine) with low-level opcodes like IADD, IASTORE,
+and GOTO, HVM boasts advanced opcodes such as APP-FUN, FUN-CTR, and DUP-CTR.
+
+The secret behind HVM lies in its computational model, "Interaction Net," which
+utilizes graph rewriting to execute all computations with constant time and
+memory. This means that a function application could be computed with a
+fixed-size electronic circuit. Furthermore, the system exhibits a highly
+granular degree of parallelism, setting it apart from modern processors.
+
+The "memory wall" or "Von Neumann bottleneck" has long limited the speed of
+today's processors (CPUs and GPUs). This issue arises from the distance between
+memory and processing units, like ALUs, and the need to transfer data between
+them. However, HVM could bypass this architecture, merging memory and
+computation into one core that stores information (nodes) and performs work
+(graph rewriting).
+
+In theory, this fusion would enable the creation of far more efficient
+processors than anything we have today. Turning HVM into a hardware
+implementation is one of HOC's long-term missions. For now, we're concentrating
+on nearer goals, such as developing runtimes, compilers, and languages with HVM.
+The potential of HVM excites us and drives the creation of HOC. We're passionate
+about redefining the future of computing!
+
+# HOC's PLAN:
+
+1. Raise 4m seed-round with tech VCs (done!)
+2. Build/polish HVM, Kindelia, ThreadBender, Kind
+3. Make Kind compatible with the full λ-calculus
+4. Convert Haskell's ecosystem to Kind using GPT-4
+5. Release Kindelia's main-net as the fairest, safest, P2P computer
+6. Mine Kindelia as we build its reputation among the FP community
+7. Work on the ecosystem, market Kindelia for a broader audience
+8. Raise a series A to work towards bigger goals
