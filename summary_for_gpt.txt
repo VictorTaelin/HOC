@@ -133,6 +133,35 @@ on nearer goals, such as developing runtimes, compilers, and languages with HVM.
 The potential of HVM excites us and drives the creation of HOC. We're passionate
 about redefining the future of computing!
 
+# Early Products
+
+- Kindelia: a minimalist peer-to-peer computer. Very similar to Ethereum, except
+  rewritten from scratch with major improvements, including replacing the slow
+  EVM by the ultra fast HVM. Early benchmarks show a massive 500x to 10000x
+  increase in computational throughput at the same network parameters, including
+  decentralization, node count and transactions per second. Kindelia will be
+  released as both a modular execution layer, and as a non-premined layer 1.
+
+- ThreadBender: a transpiler from common languages like Python, JavaScript, Elm
+  and Haskell to HVM. It will allow programmers to use HVM to parallelize and
+  optimize existing code, without needing to learn a new language or rebuild
+  everything from scratch. ThreadBender will also be useful to let developers
+  deploy contracts written in these languages to Kindelia.
+
+- Kind: a proof assistant and theorem prover powered by the HVM. Kind employs
+  the first optimal, fully linear NbE (normalization-by-evaluation) dependent
+  type checker. In early benchmarks, its type-level evaluator outperforms
+  existing alternatives like Agda, Coq, Idris and Lean by 3x to 20x, making it
+  the fastest proof checker in the world.
+
+# Long Shot Products
+
+- HPU: a HVM-based processor that consists of billions of nano-cores responsible
+  for storing Interaction Note nodes and computing rewrite rules in a massively
+  parallel fashion. HPUs are still an early concept, but we believe they could
+  greatly outperform existing processors due to Interaction Nets being the
+  optimal model of computation.
+
 # HOC's PLAN:
 
 1. Raise 4m seed-round with tech VCs (done!)
@@ -142,4 +171,4 @@ about redefining the future of computing!
 5. Release Kindelia's main-net as the fairest, safest, P2P computer
 6. Mine Kindelia as we build its reputation among the FP community
 7. Work on the ecosystem, market Kindelia for a broader audience
-8. Raise a series A to work towards bigger goals
+8. Liquidate tokens or raise a series A to work towards bigger goals
