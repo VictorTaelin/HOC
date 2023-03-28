@@ -25,7 +25,7 @@ Order Company. Once this is done, we will hire a team of developers to turn this
 exciting technology into 3 user-facing applications that can reach a much wider
 audience: ThreadBender, Kind and Kindelia.
 
-Update: the seed round is completed in Mar 2023; 4.5m was raised to fund HOC.
+**Update: the seed round is completed in Mar 2023; 4.5m was raised to fund HOC's plans.**
 
 ### ThreadBender
 
