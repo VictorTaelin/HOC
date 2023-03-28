@@ -25,6 +25,8 @@ Order Company. Once this is done, we will hire a team of developers to turn this
 exciting technology into 3 user-facing applications that can reach a much wider
 audience: ThreadBender, Kind and Kindelia.
 
+Update: the seed round is completed in Mar 2023; 4.5m was raised to fund HOC.
+
 ### ThreadBender
 
 Since around 2006, processors are getting increasingly more parallel - AMD's next
@@ -107,95 +109,3 @@ crypto enthusiasts - then, we'll be able to reach a much wider audience and be
 widely recognized as a competent company capable of shipping groundbreaking
 technology. Once we've stablished a respected name in the market, we will be in
 a much stronger position to research ways to profit from our products.
-
-Overview
---------
-
-Pre 2022, we've researched a new model of computation. In 2022, we released HVM,
-a massively parallel runtime that outperforms state-of-art alternatives given
-enough cores. In 2023, we'll raise a $5m seed round that will cover the
-following:
-
-1. Incorporate and structure the Higher Order Company
-
-2. Hire a team of developers
-
-3. Develop ThreadBender, Kindelia and Kind
-
-4. Release and market, focusing on adoption
-
-Initial projected budget for the $5m goal:
-
-Title    | Project    | Skills         | Function                | Salary    | Person 
--------- | ---------- | -------------- | ----------------------- | --------- | ------ 
-Lead Dev | HoC        | Many           | Lead                    |  $200,000 | Taelin 
-Lead Com | HoC        | Many           | Lead                    |  $100,000 | Sipher 
-Sr. Dev  | HVM        | Coq / Kind     | Correctness             |  $200,000 | ?
-Sr. Dev  | HVM        | Rust           | JIT Compiler            |  $200,000 | ?
-Sr. Dev  | HVM        | Rust           | Low-Level Optimizations |  $200,000 | ?
-Sr. Dev  | Thd.Bender | Haskell / Kind | JS-HVM Transpiler       |  $150,000 | ?
-Jr. Dev  | Thd.Bender | Haskell / Kind | JS-HVM Transpiler       | R$260,000 | Nicolas
-Jr. Dev  | Thd.Bender | Haskell / Kind | JS-HVM Transpiler       | R$260,000 | Santi 
-Sr. Dev  | Kindelia   | Rust           | Networking & Consensus  |  $150,000 | ?
-Jr. Dev  | Kindelia   | Haskell / Kind | Protocol & Execution    | R$260,000 | Derenash
-Jr. Dev  | Kindelia   | Rust           | Tooling & QA            | R$260,000 | Rheidner?
-Jr. Dev  | Kindelia   | Haskell / Kind | Demo Contracts          | R$130,000 | ?
-Sr. Dev  | Kind-Lang  | Type-Theory    | Research                |  $150,000 | ?
-Mid Dev  | Kind-Lang  | Haskell / Kind | Kind Design             | R$390,000 | Chiyoku
-Jr. Dev  | Kind-Lang  | Haskell / Kind | Kind Package Manager    | R$260,000 | Vicky?
-Jr. Dev  | Kind-Lang  | Haskell / Kind | ChatGPT + Wikind        | R$130,000 | Bonatto?
-Jr. Dev  | Kind-Lang  | Haskell / Kind | ChatGPT + Wikind        | R$130,000 | Samuel?
-Jr. Dev  | Kind-Lang  | Haskell / Kind | ChatGPT + Wikind        | R$130,000 | Sávio?
-Sr. Dev  | TheHOC.com | Web Full-Stack | Landing Pages           |  $100,000 | ?
-Designer | TheHOC.com | UI / UX        | Landing Pages           |  $100,000 | ?
-DevOps   | Infra      |                |                         | R$130,000 | Kingu?
-Lawyer   | Legal      |                | Incorporation, Patents  |  $100,000 | ?
-
-Note: 
-
-```
-Projected Seed Budget:
-+ Leads       = $   600,000
-+ HVM         = $ 1,200,000
-+ Thd.Bender  = $   500,000
-+ Kindelia    = $   550,000
-+ Kind-Lang   = $   700,000
-+ TheHOC.com  = $   400,000
-+ DevOps      = $    50,000     
-+ Legal       = $   200,000
-+ Unexpected  = $   800,000 * taxes, fees, hires, equipment, cloud, etc.
----------------------------
-Total         = $ 5,000,000
-```
-
-**Optionally**, we'll cover the following, for an additional $2.8m:
-
-1. Formalization of Interaction Calculus on Kind-Lang: + $200k
-
-3. HVM GPU target (CUDA/Vulkan): + $600k
-
-2. Research HVM on hardware (FPGA/VHDL): + $400k
-
-4. Research HVM on zk-STARKs: + $200k
-
-Projected stretch goal budget:
-
-Title    | Project    | Skills         | Function                | Salary   | Person 
--------- | ---------- | -------------- | ----------------------- | -------- | ------ 
-Sr. Dev  | HVM Formal | Coq            | Formalization of HVM    | $100,000 | ?
-Sr. Dev  | HVM FPGA   | Verilog / VHDL | HVM hardware research   | $200,000 | ?
-Sr. Dev  | HVM GPU    | CUDA / Vulkan  | HVM GPU target          | $150,000 | ?
-Sr. Dev  | HVM GPU    | CUDA / Vulkan  | HVM GPU target          | $150,000 | ?
-Sr. Dev  | HVM STARKs | zk-proofs      | HVM spec. circuits      | $200,000 | ?
-
-We'll **not** include/ship the following items from the pitch deck:
-
-1. ThreadBender B2B Business. In 2023, we will focus on building the tech and
-   promote adoption. Once we have usage on Kindelia, ThreadBender and Kind,
-   we'll be in a better position to rework our business plan.
-
-2. HPUs: we can't produce them now, but could in a future, from FPGA research.
-
-3. Cute Cats: we'll keep them for ourselves.
-
-We will run out of funds in Q1 2025, for a 2 year runway.
